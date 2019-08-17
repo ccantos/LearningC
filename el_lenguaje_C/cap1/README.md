@@ -8,13 +8,21 @@ Sirve para aumentar la portabilidad del código entre los desarrolladores. [Más
 
 ## Primeros pasos
 
-```c
-#include <stdio.h>
+El primero código es un "Hola mundo" como siempre.
 
-main()
+```c
+#include <stdio.h>              # incluye 
+
+main()                          # se define la función main que no recibe ningún valor como argumento.
 {
-    printf("hola, mundo\n")
+    printf("hola, mundo\n")     # llamamos a la función printf para poder pintar la secuencia de carácteres.
+                                # \n representa el carácter nueva línea
 }
 ```
 
+Podemos observar que:
+
 * Todo programa en C necesita la función **main()** para funcionar 
+* La linea #include <stdio.h> indica al compilador que debe incluir la biblioteca estándar de entrada/salida y así podremos llamar a printf.
+* Como en todos los lenguajes de alto nivel se respetará el formato _funcion(argumentos)_
+* Vemos que C hace uso de las llaves {} en la declaración de funciones
