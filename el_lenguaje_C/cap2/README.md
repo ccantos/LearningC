@@ -13,13 +13,12 @@ char soy_una_variable;       // definición de una variable
 
 ## 2.2. Tipos y tamaños de datos
 
-Existen varios tipos de datos básicos en C:
+Existen varios tipos de datos en C:
 
-* **char** &#8594; 8 bits/1 byte &#8594; Puede contener un carácter. [0--255/ -128--127]
-* **int** &#8594; 16-32 bits/4 bytes &#8594; Un entero, rango [-2,147,483,648 -- 2,147,483,647]
-* **float** &#8594; 32 bits/4 bytes &#8594; Este formato de dato se aplica a los números con decimales [3.4E+38 -- 3.4E-38]
-* **double** &#8594; 64 bits/8 bytes &#8594; Como float pero de doble precisión [1.7E+308 -- 1.7E-308]
-* **long doblue** &#8594; 10bytes  &#8594; Entero de 10 bytes [3.4E-4932 to 1.1E+4932]
+|char|int|float|double|long double|
+|---|---|---|---|---|---|---|
+|1 byte|2-4 bytes|4 bytes|8 bytes|10bytes|
+|0⟷255/-128⟷127|-2,147,483,648⟷2,147,483,647|3.4E-38⟷3.4E+38|1.7E-308⟷1.7E+308|3.4E-4932⟷3.4E+4932|
 
 Además, existen algunos _calificadores_ que se aplican a estos tipos básicos de datos. Tal como:
 

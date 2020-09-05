@@ -26,11 +26,43 @@ Podemos observar que:
 * Como en todos los lenguajes de alto nivel a la hora de llamar funciones se respetará el formato _funcion(argumentos)_
 * Vemos que C hace uso de las llaves **{}** en la declaración de funciones a diferencia que Python
 
+Algunos caracteres especiales
+
+* **\a** ⟶ Carácter de alarma (Sonido de error/campana)
+* **\r** ⟶ Retorno de carro (CR, carriage return)
+* **\n** ⟶ Salto de línea (LF,line feed)
+* **\ooo** ⟶ Número octal
+* **\xhh** ⟶ Número hexadecimal
+* **\b** ⟶ Retroceso
+* **\t** ⟶ Tabulación horizontal
+* **\v** ⟶ Tabulación vertical
+* **\\** ⟶ Contrabarra
+* **\f** ⟶ Salto de página
+* **\'** ⟶ Apóstrofe
+* **\"** ⟶ Comillas dobles
+* **\0** ⟶ Fin de una cadena de caracteres
+
 ## Ejercicios
 
-### 1.1 Ejecute el programa "hola, mundo" en su sistema. Experimente con la omisión de partes del programa, para ver qué mensajes de error se obtienen
+1.1. Ejecute el programa "hola, mundo" en su sistema. Experimente con la omisión de partes del programa, para ver qué mensajes de error se obtienen.
 
-### 1.2 Experimentar el descubrir qué pasa cuando la cadena del argumento de printf contiene \c, donde c es algún carácter no listado antes
+1.2. Experimentar el descubrir qué pasa cuando la cadena del argumento de printf contiene \c, donde c es algún carácter no listado antes.
+
+1.3. Modifique el programa de conversión de temperaturas de modo que escriba un encabezado sobre la tabla.
+
+1.4. Escriba un programa que imprima la tabla correspondiente Celsius a Fahrenheit.
+
+1.5. Modifique el programa de conversión de temperaturas de manera que escriba la tabla en orden inverso, esto es, desde 300 grados hasta 0.
+
+1.6. Verifique que la expresión **getchar() ! = EOF** es 0 o 1.
+
+1.7. Escriba un programa que imprima el valor de **EOF**.
+
+1.8. Escriba un programa que cuente espacios en blanco, tabuladores y nuevas líneas.
+
+1.9. Escriba un programa que copie su entrada a la salida, reemplazando cada cadena de uno o más blancos  por un solo blanco.
+
+1.10. Escriba un programa que copie su entrada a la salida, reemplazando cada tabulación por \t, cada retroceso por \b y cada diagonal invertida por \\. Esto hace que las tabulaciones y los espacios sena visibles sin confusiones.
 
 Al compilar se obtiene el compilador lanza el siguiente warning:
 
