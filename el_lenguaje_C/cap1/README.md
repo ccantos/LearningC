@@ -38,9 +38,14 @@ Algunos caracteres especiales
 * **\v** ⟶ Tabulación vertical
 * **\\** ⟶ Contrabarra
 * **\f** ⟶ Salto de página
-* **\'** ⟶ Apóstrofe
-* **\"** ⟶ Comillas dobles
+* **\\'** ⟶ Apóstrofe
+* **\\"** ⟶ Comillas dobles
 * **\0** ⟶ Fin de una cadena de caracteres
+
+Declaración de constantes simbólicas:
+```c
+#define nombre texto_de_reemplazo
+```
 
 ## Ejercicios
 

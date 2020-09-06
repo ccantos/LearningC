@@ -10,7 +10,26 @@
 
 #include<stdio.h>
 
-void main()
+int main()
 {
-    printf("hello, world\n");
+    float fahr, celsius;
+    int lower, upper, step;
+
+    lower = 300;  /* límite inferior de la tabla de temperaturas */
+    upper = 0;  /* límite superior */
+    step = 20;   /* tamaño del incremento */
+
+    celsius = lower;
+
+    /* Imprimir un encabezado sobre la tabla */
+    printf("Celsius\tFahr\n");
+    printf("---------------\n");
+
+    while (celsius => lower) {
+        fahr = (9.0/5.0 * celsius) + 32.0f;
+        printf("%3.0f\t%6.1f\n", celsius, fahr);
+        celsius = celsius - step;
+    }
+
+    return 0;
 }

@@ -11,9 +11,9 @@
 /* impreme la tabla Fahrenheit-Celsius 
     para fahr = 0, 20, ..., 300 */
 
-main()
+int main()
 {
-    int fahr, celsius;
+    float fahr, celsius;
     int lower, upper, step;
 
     lower = 0;  /* límite inferior de la tabla de temperaturas */
@@ -21,9 +21,16 @@ main()
     step = 20;   /* tamaño del incremento */
 
     fahr = lower;
-    while (fahr <=  upper) {
-        celsius = 5 * (fahr-32) / 9;
-        printf("%d\t%d\n", fahr, celsius);
+
+    /* Imprimir un encabezado sobre la tabla */
+    printf("Fahr\tCelsius\n");
+    printf("---------------\n");
+
+    while (fahr <= upper) {
+        celsius = 5.0/9.0 * (fahr-32);
+        printf("%3.0f\t%6.1f\n", fahr, celsius);
         fahr = fahr + step;
     }
+
+    return 0;
 }
