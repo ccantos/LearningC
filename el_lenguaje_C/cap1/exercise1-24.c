@@ -1,4 +1,4 @@
-/* exercise1-10.c 
+/* exercise1-24.c 
  * 
  * Escriba un programa que copie su entrada a la salida,
  * reemplazando cada tabulación por \t, 
